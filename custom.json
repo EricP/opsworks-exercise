@@ -1,0 +1,17 @@
+{
+  "apache": {
+    "package": "httpd24",
+    "service_name": "httpd",
+    "version": "2.4",
+    "lock_dir": "/var/run/httpd",
+    "keepalive": "On"
+  },
+  "php": {
+    "packages": [
+      "php56",
+      "php56-devel",
+      "php56-cli",
+      "php-pear"
+    ]
+  }
+}
